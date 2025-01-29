@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entraînement de modèle IA</title>
+</head>
+<body>
+    <h1>Entraînement d'un modèle de génération de texte</h1>
+    <form action="http://<TON_BACKEND_URL>/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Téléchargez votre dataset (fichier .txt) :</label><br>
+        <input type="file" id="file" name="file" accept=".txt"><br><br>
+        <input type="submit" value="Envoyer le dataset">
+    </form>
+</body>
+</html>
